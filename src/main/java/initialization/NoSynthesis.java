@@ -10,5 +10,7 @@ public class NoSynthesis {
     //! Bird2 b = new Bird2(); // No default
     Bird2 b2 = new Bird2(1);
     Bird2 b3 = new Bird2(1.0);
+    System.out.println(b2);
+    System.out.println(b3);
   }
 } ///:~
